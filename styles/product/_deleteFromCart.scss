@@ -1,0 +1,19 @@
+.delete-from-cart {
+	display: inline-flex;
+	background-color: crimson;
+	padding: 10px 20px;
+	border-radius: 4px;
+	cursor: pointer;
+	color: white;
+
+	&:hover {
+		background-color: rgba(black, 0.2);
+		color: black;
+	}
+
+	p {
+		margin: 0;
+		font-size: 14px;
+		font-weight: 700;
+	}
+}

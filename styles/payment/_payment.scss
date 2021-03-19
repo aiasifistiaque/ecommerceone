@@ -1,0 +1,15 @@
+.payment-input {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	width: 100%;
+
+	input {
+		display: flex;
+		margin: 10px;
+	}
+
+	label {
+		margin: 0;
+	}
+}

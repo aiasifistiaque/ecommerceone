@@ -1,0 +1,19 @@
+.add-to-cart {
+	display: inline-flex;
+	background-color: black;
+	padding: 10px 50px;
+	border-radius: 4px;
+	color: whitesmoke;
+	cursor: pointer;
+
+	&:hover {
+		background-color: rgba(black, 0.2);
+		color: black;
+	}
+
+	p {
+		margin: 0;
+		font-size: 14px;
+		font-weight: 700;
+	}
+}

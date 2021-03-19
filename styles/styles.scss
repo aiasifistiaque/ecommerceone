@@ -1,0 +1,82 @@
+//style file for the whole project
+@import './nav/nav-item';
+@import './product/productCard';
+@import './product/out-of-stock';
+@import './product/addToCart';
+@import './checkout/checkout';
+@import './product/deleteFromCart';
+@import './login/loginForm';
+@import './shipping/shipping';
+@import './payment/payment';
+@import './cart/cart';
+@import './constants';
+@import './product/productPage';
+
+.loading {
+	display: flex;
+	flex: 1;
+	align-items: center;
+	justify-content: center;
+}
+
+.page {
+	display: flex;
+	flex: 1;
+	min-height: 100vh;
+	width: 100%;
+	box-sizing: border-box;
+	flex-direction: column;
+	background-color: whitesmoke;
+}
+
+.my-orders {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	padding: 5%;
+	box-sizing: border-box;
+	flex-wrap: wrap;
+}
+
+.my-profile {
+	padding: 5%;
+}
+
+.single-user {
+	display: flex;
+	flex: 1;
+	justify-content: space-around;
+
+	div {
+		flex: 1;
+		padding: 5px;
+	}
+}
+
+.order-details-page {
+	display: flex;
+	padding: 5%;
+}
+
+.order-details {
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+	min-height: 70vh;
+	justify-content: space-evenly;
+	padding: 5%;
+}
+
+.order-details-item {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+	align-items: center;
+}
+
+.order-summary {
+	padding: 10%;
+
+	box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+	border-radius: 25px;
+}

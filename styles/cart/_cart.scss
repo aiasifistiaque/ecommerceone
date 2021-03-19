@@ -1,0 +1,13 @@
+.shopping-cart {
+	display: flex;
+	flex: 6;
+	padding: 5%;
+	flex-direction: column;
+}
+
+.cart-item {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	margin: 10px 0;
+}
